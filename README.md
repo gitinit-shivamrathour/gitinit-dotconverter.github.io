@@ -1,4 +1,4 @@
-# .Converter Text Utilizer :partying_face:
+# .Converter : Text Utilizer :partying_face:
 
 A text utilizer/manipulator web application using Html, Css(Bootstrap4), Javascript & Django.
 
