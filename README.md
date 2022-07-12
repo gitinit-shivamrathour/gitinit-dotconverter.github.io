@@ -4,7 +4,7 @@ A text utilizer/manipulator web application using Html, Css(Bootstrap4), Javascr
 
 ## Description
 
-
+.Coverter is web tool to assist developers and other people in daily tasks by providing tools for manipulating text data.
 
 ### Dependencies
 
