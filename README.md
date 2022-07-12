@@ -8,7 +8,7 @@ A text utilizer/manipulator web application using Html, Css(Bootstrap4), Javascr
 
 ### Dependencies
 
-* Based on Both Front-end and Backend concepts HTML5, CSS3(Bootstrapped), Javascript(With typed.js) & Django.
+* Based on Both Front-end and Backend concepts. HTML5, CSS3(Bootstrapped), Javascript(With typed.js) & Django.
 * ex. Runs on chrome or most of the other browsers.
 
 ### Suggest
