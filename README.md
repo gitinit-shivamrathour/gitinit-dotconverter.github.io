@@ -1,14 +1,15 @@
-# Upgraded Personal-folio site :partying_face:
+# .Converter Text Utilizer :partying_face:
 
-Complete Responsive Personal Folio Site using HTML5, CSS3 & JS
+A text utilizer/manipulator web application using Html, Css(Bootstrap4), Javascript & Django.
 
 ## Description
-This site includes a nav-section, home-section, About-me-section, My-skills-section, Services-section, contact-us-section & footer section with scroll bar. in resposinve devices it also includes a side-baar or side-nav-baar. with day-night mode functionality and chatbot system.
+
+
 
 ### Dependencies
 
-* Based on Front-end concepts with HTML5, CSS3 & Javascript (With typed.js) 
-* ex. Runs on Windows 10 or other operating syatems.
+* Based on Both Front-end and Backend concepts HTML5, CSS3(Bootstrapped), Javascript(With typed.js) & Django.
+* ex. Runs on chrome or most of the other browsers.
 
 ### Suggest
 * give your feedback after evaluation.
@@ -26,8 +27,8 @@ This project is licensed under the Indian IT Act-2021, All Rights Reserved@Shiva
 
 ## direct-link
 
-https://gitinit-shivamrathour.github.io/gitinit-frontfolio.github.io/
+https://#.com
 
-## Qr
+## i/p snaps
 
 ![Test Image](https://github.com/gitinit-shivamrathour/gitinit-dotconverter.github.io/blob/main/Screenshot%202022-07-12%20010826.png)
