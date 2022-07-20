@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>One.60techno - Analyzed Text</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!--Typed.js-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typed.js"></script>
+</head>
+
+<style>
+    h1{
+     <!--text-align: center;-->
+    }
+
+    .textbg{
+     background-color: rgb(51, 51, 51);
+     color: white;
+    }
+
+    .navigator{
+     text-decoration: none;
+    }
+</style>
+
+<body>
+     <nav class="container mt-4 mb-4 navbar navbar-dark bg-dark justify-content-center rounded">
+            <span class="navbar-text">
+              <a href="{% url 'index' %}" class="navigator"><h2>.Converter</h2></a>
+            </span>
+     </nav>
+
+     <div class="container alert alert-primary alert-dismissible fade show" role="alert">
+       Your <strong>Text Analyzed !</strong> Successfully!
+       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+     </div>
+
+     <div class="container mt-4 mb-4 ">
+       <h1 class="mb-4"><span id="typed"></span></h1>
+
+       <div class="form-group">
+           <textarea class="form-control textbg" name='copy' id="exampleFormControlTextarea1" rows="9"> {{ analyzed_text }} </textarea>
+       </div>
+       <!--<pre class="mt-4">{{ analyzed_text }}</pre>-->
+     </div>
+
+     <script>
+            var typed = new Typed('#typed',{
+                           strings:[ "Analyzed text : Action - {{ purpose }} !", "We would like to thanks you for using our services !"],
+                           backSpeed: 50,
+                           smartBackspace: true,
+                           backDelay: 1000,
+                           startDelay: 100,
+                           typeSpeed: 25,
+                           loop: true,
+                         });
+     </script>
+     <!-- Optional JavaScript -->
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
